@@ -1,7 +1,12 @@
 header{
+    height: 100px;
     width: 100%;
 }
+body{
+    background: color #e2ebee;
+}
 footer{
+    height: 200px;
     width: 100%;
 }
 ul{
