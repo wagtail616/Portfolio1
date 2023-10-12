@@ -19,8 +19,14 @@ section div{
 }
 h1{
     position: absolute;
-    background-color:#162440;
-    color: #ddffff;
+    top: 90vma;
+    left: 110vm;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+    background-color:rgba(50,145,145,0.5);
+    color: #c0ffff;
+    font-size: 50px;
     font-family: 'Damion', cursive;
     font-family: 'Itim', cursive;
 }
