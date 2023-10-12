@@ -1,9 +1,10 @@
 header{
+    background-color: rgba(255,255,255,0.1);
     height: 100px;
     width: 100%;
 }
 body{
-    background: color #e2ebee;
+    background-color:#e2ebee;
 }
 footer{
     background-color: #162440;
