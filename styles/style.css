@@ -2,14 +2,24 @@ div{
     height: 100px;
     width: 100%;
 }
+body{
+    background-color:#e2ebee;
+}
 header{
     position: fixed;
     background-color: rgba(255,255,255,0.1);
     height: 100px;
     width: 100%;
 }
-body{
-    background-color:#e2ebee;
+section div{
+    height: 720px;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    height: 720px;
+    width: 1080px;
 }
 footer{
     background-color: #162440;
