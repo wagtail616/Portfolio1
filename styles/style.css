@@ -20,15 +20,18 @@ section div{
 h1{
     position: absolute;
     background-color:#162440;
-    color: #ffffff;
+    color: #ddffff;
+    font-family: 'Damion', cursive;
+    font-family: 'Itim', cursive;
 }
+
 img{
     height: 720px;
     width: 1080px;
 }
 footer{
     background-color: #162440;
-    color: #ffffff;
+    color: #ddffff;
     height: 200px;
     width: 100%;
 }
