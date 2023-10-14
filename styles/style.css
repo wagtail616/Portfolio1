@@ -16,12 +16,16 @@ header{
 header a{
     color: #000000;
 }
+section{
+    margin-bottom: 100px;
+}
 section div{
     height: 720px;
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
 }
+
 h2{
     position: absolute;
     top: 90vma;
