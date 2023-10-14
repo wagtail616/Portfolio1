@@ -9,7 +9,8 @@ header{
     position: fixed;
     background-color: rgba(255,255,255,0.1);
     height: 100px;
-    width: 100%;
+    padding-left: 100%;
+    right: 10px;
 }
 section div{
     height: 720px;
