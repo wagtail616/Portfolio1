@@ -41,8 +41,20 @@ h2{
 }
 
 img{
-    height: 720px;
-    width: 1080px;
+    height: 100%;
+    width:100%;
+}
+.Right{/*img　右半分に配置*/
+    width: 50%;
+}
+.LeftTop{/*img 左上に配置*/
+    width: 50%;
+    height: 50%;
+}
+.LeftBottom{
+    width: 50%;
+    height: 50%;
+
 }
 footer{
     background-color: #162440;
