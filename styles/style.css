@@ -44,14 +44,16 @@ img{
     height: 100%;
     width:100%;
 }
+
 .Right{/*img　右半分に配置*/
     width: 50%;
+    float: right;
 }
 .LeftTop{/*img 左上に配置*/
     width: 50%;
     height: 50%;
 }
-.LeftBottom{
+.LeftBottom{/*img 左下に配置*/
     width: 50%;
     height: 50%;
 
