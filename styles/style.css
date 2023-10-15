@@ -32,17 +32,38 @@ h1{
     width: 100px;
 }
 h2{
+    background-color:rgba(50,145,145,0.5);
+    color: #c0ffff;
+    font-size: 75px;
+    font-family: 'Damion', cursive;
+    font-family: 'Itim', cursive;
+}
+section div{
+    position: relative;
+}
+#About h2{
     position: absolute;
-    top: 90vma;
-    left: 110vm;
+    top: 50%;
+    left: 70%;
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 30px;
-    background-color:rgba(50,145,145,0.5);
-    color: #c0ffff;
-    font-size: 50px;
-    font-family: 'Damion', cursive;
-    font-family: 'Itim', cursive;
+}
+#Service h2{
+    position: absolute;
+    top: 5%;
+    left: 32.5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+#Contact h2{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
 }
 
 img{
