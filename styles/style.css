@@ -43,19 +43,22 @@ h2{
 img{
     height: 100%;
     width:100%;
+    vertical-align: bottom;
 }
 
 .Right{/*img　右半分に配置*/
-    width: 50%;
     float: right;
+    width: 47%;
+    height: 100%;
 }
 .LeftTop{/*img 左上に配置*/
-    width: 50%;
-    height: 50%;
+    width: 47%;
+    height: 47%;
+    padding-bottom: 4%;
 }
 .LeftBottom{/*img 左下に配置*/
-    width: 50%;
-    height: 50%;
+    width: 47%;
+    height: 47%;
 
 }
 footer{
