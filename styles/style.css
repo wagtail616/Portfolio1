@@ -11,7 +11,7 @@ body{
 }
 header{
     position: fixed;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.4);
     height: 100px;
     padding-left: 100%;
     right: 10px;
@@ -79,7 +79,8 @@ ul{
 }
 li{
     list-style: none;
-    margin-right: 20px;
+    font-size: 32px;
+    margin: 15px;
 }
 a{
     text-decoration: none;
