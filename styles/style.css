@@ -71,7 +71,7 @@ section div{
     padding-right: 10px;
     margin-left: 30px;
 }
-#Contact h2{
+#Access h2{
     z-index: 2;
     position: absolute;
     top: 20%;
@@ -141,7 +141,7 @@ footer a::after{
 
 a:hover::after{
     transform: scale(1,1);}
-#Contact p{
+#Access p{
     z-index: 1;
     background-color: #eeffff;
     padding: 40px;
