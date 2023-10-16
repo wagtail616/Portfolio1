@@ -9,7 +9,7 @@
     width: 100%;
 }
 
-.eachTextAnime.appeartext p{animation:text_anime_on 1s ease-out forwards;}
+.eachTextAnime.appeartext p{animation:text_anime_on 0.5s ease-out forwards;}
 @keyframes text_anime_on{
     0%{right: -1100px;}
     100%{right: -350px;}
