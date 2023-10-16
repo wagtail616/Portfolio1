@@ -10,6 +10,7 @@ body{
     background-color:#e2ebee;
 }
 header{
+    z-index: 2;
     position: fixed;
     background-color: rgba(255,255,255,0.4);
     height: 100px;
@@ -29,6 +30,7 @@ section div{
     margin-right: auto;
 }
 h1{
+    z-index: 3;
     width: 100px;
 }
 h2{
@@ -59,8 +61,8 @@ section div{
 }
 #Contact h2{
     position: absolute;
-    top: 50%;
-    left: 70%;
+    top: 20%;
+    left: 55%;
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 30px;
