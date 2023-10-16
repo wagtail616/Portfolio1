@@ -33,8 +33,14 @@ section div{
 h1{
     position: absolute;
     z-index: 3;
-    
-    width: 100px;
+    top: 4%;
+    left: 4%;
+    width: 150px;
+}
+h1 a{
+    background-color: #FFFFE9;
+    padding: 8px;
+    color: #555500;
 }
 h2{
     background-color:rgba(50,145,145,0.5);
@@ -112,7 +118,7 @@ a{
     text-decoration: none;
     position: relative;
 }
-a::after{
+li a::after{
     position: absolute;
     left: 0;
     content: '';
