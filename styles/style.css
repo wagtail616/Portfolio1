@@ -31,7 +31,9 @@ section div{
     margin-right: auto;
 }
 h1{
+    position: absolute;
     z-index: 3;
+    
     width: 100px;
 }
 h2{
