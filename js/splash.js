@@ -26,7 +26,7 @@ $(window).on('load',function(){
         text.split('').forEach(function(t,i){
             if(t!==""){
 
-                    textbox += '<span style="animation-delay:.' + i + 's;">' + t + '</span>';
+                    textbox += '<p style="animation-delay:.' + i + 's;">'+ t + '</p>';
             
             }else{
                 textbox+=t;

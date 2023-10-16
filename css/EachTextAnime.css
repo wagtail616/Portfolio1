@@ -1,10 +1,16 @@
-.eachTextAnime span{
+.eachTextAnime p{
+    float: left;
     font-size: 40px;
-    position:absolute;
-    right: -100px;
+    position: relative;
+    right: -1100px;
 }
-.eachTextAnime.appeartext span{animation:text_anime_on 1s ease-out forwards;}
+#Contact span{
+    display: inline-block;
+    width: 100%;
+}
+
+.eachTextAnime.appeartext p{animation:text_anime_on 1s ease-out forwards;}
 @keyframes text_anime_on{
-    0%{right: -100px;}
-    100%{right: 1000px;}
+    0%{right: -1100px;}
+    100%{right: -350px;}
 }
