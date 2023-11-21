@@ -1,166 +1,193 @@
-*{
-    margin: 0;
-}
-div{
-    height: 100px;
-    width: 100%;
-}
-body{
-    margin: 0;
-    background-color:#e2ebee;
-}
-header{
-    z-index: 2;
-    margin: 0;
-    position: fixed;
-    right: 0;
-    background-color: rgba(255,255,255,0.4);
-    height: 100px;
-    padding-left: 100%;
-}
-header a{
-    color: #000000;
-}
-nav{
-    margin: 10px;
-}
-section{
-    z-index: 1;
-    margin-bottom: 100px;
-}
-section div{
-    height: 720px;
-    width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-}
-h1{
-    position: absolute;
-    z-index: 3;
-    top: 4%;
-    left: 4%;
-    width: 150px;
-}
-h1 a{
-    background-color: #FFFFE9;
-    padding: 8px;
-    color: #555500;
-}
-h1 a:hover{
-    top: 5px;
-}
-h2{
-    background-color:rgba(75,195,195,0.5);
-    color: #c0ffff;
-    font-size: 75px;
-    font-family: 'Damion', cursive;
-    font-family: 'Itim', cursive;
-}
-section div{
-    position: relative;
-}
-#About h2{
-    position: absolute;
-    top: 50%;
-    left: 70%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 30px;
-}
-#Service h2{
-    position: absolute;
-    top: 5%;
-    left: 32.5%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 30px;
-}
-#Access h2{
-    z-index: 2;
-    position: absolute;
-    top: 20%;
-    left: 55%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 30px;
+@charset "UTF-8";
+* {
+  margin: 0;
 }
 
-img{
-    height: 100%;
-    width:100%;
-    vertical-align: bottom;
+div {
+  height: 100px;
+  width: 100%;
 }
 
-.Right{/*img　右半分に配置*/
-    float: right;
-    width: 47%;
-    height: 100%;
-}
-.LeftTop{/*img 左上に配置*/
-    width: 47%;
-    height: 47%;
-    padding-bottom: 4%;
-}
-.LeftBottom{/*img 左下に配置*/
-    width: 47%;
-    height: 47%;
-
-}
-footer{
-    background-color: #162440;
-    height: 200px;
-    width: 100%;
-}
-footer a{
-    color: #ddffff;
-}
-ul{
-    display: flex;
-}
-li{
-    list-style: none;
-    font-size: 32px;
-    margin: 15px;
-}
-a{
-    text-decoration: none;
-    position: relative;
-}
-li a::after{
-    position: absolute;
-    left: 0;
-    content: '';
-    width: 100%;
-    height: 2px;
-    background: #000000;
-    bottom: 0px;
-    transform: scale(0,1);
-    transform-origin: center;
-    transition: transform 0.2s;
+body {
+  margin: 0;
+  background-color: #e2ebee;
 }
 
-footer a::after{
-    background: #ddffff;
+header {
+  z-index: 2;
+  margin: 0;
+  position: fixed;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 100px;
+  padding-left: 100%;
 }
 
-a:hover::after{
-    transform: scale(1,1);}
-#Access p{
-    z-index: 1;
-    background-color: #eeffff;
-    padding: 40px;
-    position: absolute;
-    left: 55%;
-    top: 30%;
+header a {
+  color: #000000;
 }
-.hidden{
+
+nav {
+  margin: 10px;
+}
+
+section {
+  z-index: 1;
+  margin-bottom: 100px;
+}
+
+section div {
+  height: 720px;
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  position: absolute;
+  z-index: 3;
+  top: 4%;
+  left: 4%;
+  width: 150px;
+}
+
+h1 a {
+  background-color: #FFFFE9;
+  padding: 8px;
+  color: #555500;
+}
+
+h1 a:hover {
+  top: 5px;
+}
+
+h2 {
+  background-color: rgba(75, 195, 195, 0.5);
+  color: #c0ffff;
+  font-size: 75px;
+  font-family: "Damion", cursive;
+  font-family: "Itim", cursive;
+}
+
+section div {
+  position: relative;
+}
+
+#About h2 {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 30px;
+}
+
+#Service h2 {
+  position: absolute;
+  top: 5%;
+  left: 32.5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 30px;
+}
+
+#Access h2 {
+  z-index: 2;
+  position: absolute;
+  top: 20%;
+  left: 55%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 30px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.Right { /*img　右半分に配置*/
+  float: right;
+  width: 47%;
+  height: 100%;
+}
+
+.LeftTop { /*img 左上に配置*/
+  width: 47%;
+  height: 47%;
+  padding-bottom: 4%;
+}
+
+.LeftBottom { /*img 左下に配置*/
+  width: 47%;
+  height: 47%;
+}
+
+footer {
+  background-color: #162440;
+  height: 200px;
+  width: 100%;
+}
+
+footer a {
+  color: #ddffff;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  font-size: 32px;
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+li a::after {
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #000000;
+  bottom: 0px;
+  transform: scale(0, 1);
+  transform-origin: center;
+  transition: transform 0.2s;
+}
+
+footer a::after {
+  background: #ddffff;
+}
+
+a:hover::after {
+  transform: scale(1, 1);
+}
+
+#Access p {
+  z-index: 1;
+  background-color: #eeffff;
+  padding: 40px;
+  position: absolute;
+  left: 55%;
+  top: 30%;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 540px) {
+  .hidden {
+    display: inline-block;
+  }
+  header nav {
     display: none;
-}
-@media screen and (max-width:540px) {
-    .hidden{
-        display: inline-block;
-    }
-    header nav{
-        display: none;
-    }
-}
+  }
+}/*# sourceMappingURL=style.css.map */
