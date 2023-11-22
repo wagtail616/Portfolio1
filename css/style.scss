@@ -131,7 +131,23 @@ h2{
     padding-right: 10px;
     margin-left: 30px;
 }
-
+#Contact{
+    height: 300px;
+    margin: 0;
+    h2{
+        padding-top: 10%;
+        background-color: rgba(0,0,0,0);
+        a{
+            color: #000000;
+        }
+        a:hover{
+            color: #1c4597;
+        }
+    }
+    div{
+        height: 100%;
+    }
+}
 img{
     height: 100%;
     width:100%;
@@ -195,5 +211,8 @@ a{
         padding-left: 10px;
         padding-right: 10px;
         margin-left: 30px;
+    }
+    #Contact div{
+        height: 150px;
     }
 }
