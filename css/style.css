@@ -8,9 +8,46 @@ div {
   width: 100%;
 }
 
-body {
-  margin: 0;
-  background-color: #e2ebee;
+nav {
+  margin: 10px;
+}
+
+li {
+  list-style: none;
+  font-size: 32px;
+  margin: 15px;
+}
+li a::after {
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  bottom: 0px;
+  transform: scale(0, 1);
+  transform-origin: center;
+  transition: transform 0.2s;
+}
+
+a:hover::after {
+  transform: scale(1, 1);
+}
+
+.Right { /*img　右半分に配置*/
+  float: right;
+  width: 47%;
+  height: 100%;
+}
+
+.LeftTop { /*img 左上に配置*/
+  width: 47%;
+  height: 47%;
+  padding-bottom: 4%;
+}
+
+.LeftBottom { /*img 左下に配置*/
+  width: 47%;
+  height: 47%;
 }
 
 header {
@@ -22,25 +59,28 @@ header {
   height: 100px;
   padding-left: 100%;
 }
-
 header a {
   color: #000000;
 }
+header a::after {
+  background: #000000;
+}
 
-nav {
-  margin: 10px;
+body {
+  margin: 0;
+  background-color: #e2ebee;
 }
 
 section {
   z-index: 1;
   margin-bottom: 100px;
 }
-
 section div {
-  height: 720px;
+  height: 600px;
   width: 1080px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 h1 {
@@ -50,13 +90,11 @@ h1 {
   left: 4%;
   width: 150px;
 }
-
 h1 a {
   background-color: #FFFFE9;
   padding: 8px;
   color: #555500;
 }
-
 h1 a:hover {
   top: 5px;
 }
@@ -67,10 +105,6 @@ h2 {
   font-size: 75px;
   font-family: "Damion", cursive;
   font-family: "Itim", cursive;
-}
-
-section div {
-  position: relative;
 }
 
 #About h2 {
@@ -107,21 +141,9 @@ img {
   vertical-align: bottom;
 }
 
-.Right { /*img　右半分に配置*/
-  float: right;
-  width: 47%;
+iframe {
+  width: 50%;
   height: 100%;
-}
-
-.LeftTop { /*img 左上に配置*/
-  width: 47%;
-  height: 47%;
-  padding-bottom: 4%;
-}
-
-.LeftBottom { /*img 左下に配置*/
-  width: 47%;
-  height: 47%;
 }
 
 footer {
@@ -129,45 +151,20 @@ footer {
   height: 200px;
   width: 100%;
 }
-
 footer a {
   color: #ddffff;
+}
+footer a::after {
+  background: #ddffff;
 }
 
 ul {
   display: flex;
 }
 
-li {
-  list-style: none;
-  font-size: 32px;
-  margin: 15px;
-}
-
 a {
   text-decoration: none;
   position: relative;
-}
-
-li a::after {
-  position: absolute;
-  left: 0;
-  content: "";
-  width: 100%;
-  height: 2px;
-  background: #000000;
-  bottom: 0px;
-  transform: scale(0, 1);
-  transform-origin: center;
-  transition: transform 0.2s;
-}
-
-footer a::after {
-  background: #ddffff;
-}
-
-a:hover::after {
-  transform: scale(1, 1);
 }
 
 #Access p {
@@ -183,11 +180,25 @@ a:hover::after {
   display: none;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 750px) {
   .hidden {
     display: inline-block;
   }
   header nav {
     display: none;
+  }
+}
+@media screen and (max-width: 1080px) {
+  section div {
+    height: 80vmin;
+    width: 100%;
+  }
+  #About h2 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
