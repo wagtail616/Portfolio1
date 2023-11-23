@@ -190,6 +190,10 @@ a{
 .hidden{
     display: none;
 }
+@media screen and (max-width:430px) {//スマホサイズ
+    
+}
+
 @media screen and (max-width:750px) {//ハンバーガーメニュー関係
     .hidden{
         display: inline-block;
@@ -199,7 +203,7 @@ a{
     }
 }
 
-@media screen and (max-width:1080px) {//画面レイアウト関係
+@media screen and (max-width:1080px) {//
     section div{
             height: 80vmin;
             width: 100%;
