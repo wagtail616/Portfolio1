@@ -1,0 +1,26 @@
+#Thanks h2{
+    position: absolute;
+    width: 500px;
+    bottom: 50px;
+    
+    color: white;
+    font-size: 35px;
+
+    padding: 22px;
+    padding-left: 150px;
+    
+    background-image: url("../images/tobecontinued.png");
+    background-size: 500px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+
+    animation: slide 0.25s linear;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}

@@ -24,7 +24,8 @@
     <section id="form">
     <div>
         <h2>Contact</h2>
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfb_NBQ5An4kathfHIRdOSRi_L9aFM4IjGkycYLCeXhijKocw/formResponse" method="post">
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfb_NBQ5An4kathfHIRdOSRi_L9aFM4IjGkycYLCeXhijKocw/formResponse"
+            method="post" target="hidden_iframe" onsubmit="submitted=true;">
             <p>*Your Name</p>
             <input type="text" name="entry.2005620554"  required>
             <p>*Your Email</p>
@@ -37,6 +38,11 @@
         </form>
     </div>
     </section>
+    <script>
+        let submitted = false;
+    </script>
+    <iframe name="hidden_iframe" style="display: none;" 
+    onload="if(submitted){window.location='Thanks.html'}"></iframe>
 </body>
 
 <footer>
