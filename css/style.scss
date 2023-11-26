@@ -220,3 +220,28 @@ a{
         height: 150px;
     }
 }
+
+form{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+}
+input{
+    display: block;
+}
+#form {
+    div{
+        width: 500px;
+        height: 600px;
+        background-color: rgba($color:#ddffff, $alpha: 0.6);
+    }
+    h2{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    }
+    p{
+        text-align: center;
+        margin-top: 30px;
+    }
+}

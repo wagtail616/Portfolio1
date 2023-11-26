@@ -222,4 +222,28 @@ a {
   #Contact div {
     height: 150px;
   }
+}
+form {
+  width: 200px;
+  height: 100px;
+  margin: auto;
+}
+
+input {
+  display: block;
+}
+
+#form div {
+  width: 500px;
+  height: 600px;
+  background-color: rgba(221, 255, 255, 0.6);
+}
+#form h2 {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+#form p {
+  text-align: center;
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
