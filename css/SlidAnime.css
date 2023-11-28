@@ -14,11 +14,11 @@
     background-color: transparent;
     background-repeat: no-repeat;
 
-    animation: slide 0.25s linear;
+    animation: slide 0.45s linear;
 }
 @keyframes slide {
     0%{
-        transform: translateX(100%);
+        transform: translateX(200%);
     }
     100%{
         transform: translateX(0%);

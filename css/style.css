@@ -138,6 +138,7 @@ h2 {
 #Contact {
   height: 300px;
   margin: 0;
+  overflow: hidden;
 }
 #Contact h2 {
   padding-top: 10%;
@@ -178,6 +179,7 @@ footer a::after {
 
 ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 a {
@@ -223,6 +225,38 @@ a {
     height: 150px;
   }
 }
+@media screen and (max-width: 430px) {
+  #About h2 {
+    left: 30%;
+  }
+  #Service h2 {
+    left: 10%;
+  }
+  #Access h2 {
+    left: 20%;
+  }
+}
+.hamburger span {
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+  position: relative;
+  transition: ease 0.4s;
+  display: block;
+}
+
+.hamburger span:nth-child(1) {
+  top: 0;
+}
+
+.hamburger span:nth-child(2) {
+  margin: 8px 0;
+}
+
+.hamburger span:nth-child(3) {
+  top: 0;
+}
+
 form {
   width: 200px;
   height: 100px;
@@ -246,4 +280,15 @@ input {
 #form p {
   text-align: center;
   margin-top: 30px;
+}
+
+#Thanks p {
+  font-size: 50px;
+  margin: auto;
+  width: 450px;
+}
+@media screen and (max-width: 1080px) {
+  #Thanks p {
+    margin: 0px;
+  }
 }/*# sourceMappingURL=style.css.map */
