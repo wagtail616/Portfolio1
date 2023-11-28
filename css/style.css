@@ -66,49 +66,6 @@ header a::after {
   background: #000000;
 }
 
-.open {
-  position: relative;
-  background-color: #57a2c7;
-  cursor: pointer;
-  width: 50px;
-  height: 50px;
-  border-radius: 5px;
-}
-.open span {
-  position: absolute;
-  transition: all 0.4s;
-  position: absolute;
-  left: 14px;
-  height: 3px;
-  background: #FFF;
-  width: 45%;
-}
-.open span:nth-child(1) {
-  top: 15px;
-}
-.open span:nth-child(2) {
-  top: 23px;
-}
-.open span:nth-child(3) {
-  top: 31px;
-}
-
-.open.active span:nth-child(1) {
-  top: 18px;
-  left: 14px;
-  transform: translateY(6px) rotate(-405deg);
-  widows: 30%;
-}
-.open.active span:nth-child(2) {
-  opacity: 0;
-}
-.open.active span:nth-child(3) {
-  top: 30px;
-  left: 14px;
-  transform: translateY(-6px) rotate(405deg);
-  widows: 30%;
-}
-
 body {
   margin: 0;
   background-color: #e2ebee;
@@ -242,12 +199,73 @@ a {
   top: 30%;
 }
 
+.open {
+  display: none;
+}
+
 @media screen and (max-width: 750px) {
-  .hidden {
-    display: inline-block;
-  }
   header nav {
     display: none;
+  }
+  header nav.active {
+    display: inline-block;
+    text-align: center;
+  }
+  .nav {
+    text-align: center;
+  }
+  ul {
+    display: block;
+    justify-content: center;
+  }
+  header.active {
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+  }
+  .open {
+    display: block;
+    margin: 5px;
+    margin-left: auto;
+    position: relative;
+    background-color: #57a2c7;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  .open span {
+    position: absolute;
+    transition: all 0.4s;
+    position: absolute;
+    left: 14px;
+    height: 3px;
+    background: #FFF;
+    width: 45%;
+  }
+  .open span:nth-child(1) {
+    top: 15px;
+  }
+  .open span:nth-child(2) {
+    top: 23px;
+  }
+  .open span:nth-child(3) {
+    top: 31px;
+  }
+  .open.active span:nth-child(1) {
+    top: 18px;
+    left: 12px;
+    transform: translateY(6px) rotate(-405deg);
+    widows: 30%;
+  }
+  .open.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .open.active span:nth-child(3) {
+    top: 30px;
+    left: 12px;
+    transform: translateY(-6px) rotate(405deg);
+    widows: 30%;
   }
 }
 @media screen and (max-width: 1080px) {
@@ -283,27 +301,6 @@ a {
     top: 0%;
   }
 }
-.hamburger span {
-  width: 100%;
-  height: 1px;
-  background-color: #000000;
-  position: relative;
-  transition: ease 0.4s;
-  display: block;
-}
-
-.hamburger span:nth-child(1) {
-  top: 0;
-}
-
-.hamburger span:nth-child(2) {
-  margin: 8px 0;
-}
-
-.hamburger span:nth-child(3) {
-  top: 0;
-}
-
 form {
   width: 200px;
   height: 100px;
