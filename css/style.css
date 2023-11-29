@@ -214,7 +214,7 @@ a {
   .nav {
     text-align: center;
   }
-  ul {
+  header ul {
     display: block;
     justify-content: center;
   }
