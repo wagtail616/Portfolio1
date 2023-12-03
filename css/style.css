@@ -350,4 +350,12 @@ input {
   #Thanks div {
     width: 100%;
   }
+}
+
+.Default_list {
+  display: block;
+}
+
+.licence {
+  left: 80%;
 }/*# sourceMappingURL=style.css.map */
